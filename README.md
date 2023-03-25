@@ -1,17 +1,9 @@
 
-# Introdução à Rest APIs com Laravel 10.x
-
-- :movie_camera: [Acesse a Aula](https://www.youtube.com/watch?v=AO3gug_3DRs).
-
-
-Links Úteis:
-
-- :tada: [Saiba Mais](https://linktr.ee/especializati)
-
+# Rest APIs com Laravel 10.x
 ## Passo a passo para rodar o projeto
 Clone Repositório
 ```sh
-git clone https://github.dev/especializati/laravel-10-rest-api.git app-laravel
+git clone https://github.com/ruimatos-dev/curso-de-laravel-10.git app-laravel
 ```
 ```sh
 cd app-laravel/
@@ -26,15 +18,15 @@ cp .env.example .env
 
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
-APP_NAME=EspecializaTi
+APP_NAME=Laravel10
 APP_URL=http://localhost:8989
 
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
-DB_DATABASE=nome_que_desejar_db
+DB_DATABASE=nome_banco
 DB_USERNAME=nome_usuario
-DB_PASSWORD=senha_aqui
+DB_PASSWORD=senha_usuario
 
 CACHE_DRIVER=redis
 QUEUE_CONNECTION=redis
